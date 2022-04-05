@@ -24,7 +24,7 @@
 			<link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet" />
 			<link th:href="@{/webjars/bootstrap/css/bootstrap-theme.min.css}" rel="stylesheet" />
 		</div>
-		<div class="panel-body" th:switch="${clientes}">
+		<div class="panel-body" th:switch="${cliente}">
 			<h5 th:case="null">Não existem clientes cadastrados ainda!</h5>
 			<div th:case="*">
 				<table class="table">
@@ -55,9 +55,9 @@
 							<td>
 								<div class="btn-group pull-right">
 									<a class="btn btn-sm btn-primary"
-										th:href="@{/sig/clientes/{cpf}(cpf=${cliente.cpf})}">Editar</a>
+										th:href="@{/sig/cliente/{cpf}(cpf=${cliente.cpf})}">Editar</a>
 									<a class="delete btn btn-sm btn-danger"
-										th:href="@{/sig/clientes/id/{id}(id=${cliente.id})}">Excluir</a>
+										th:href="@{/sig/cliente/id/{id}(id=${cliente.id})}">Excluir</a>
 								</div>
 							</td>
 						</tr>

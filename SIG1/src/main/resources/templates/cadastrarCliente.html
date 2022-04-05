@@ -7,7 +7,7 @@
 	<title>Cadastrar cliente</title>
 	<script type="text/javascript">
 		function consulta() {
-			window.open("/sig/clientes");
+			window.open("/sig/cliente");
 		}
 	</script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,7 @@
 		<div class="card">
 			<div class="card-body">
 				<div class="col-md-8">
-					<form action="#" th:action="@{/sig/clientes}" th:object="${cliente}" method="post">
+					<form action="#" th:action="@{/sig/cliente}" th:object="${cliente}" method="post">
 						<div class="row">
 							<div class="form-group col-md-4">
 								<label for="cpf" class="col-form-label">CPF</label>
