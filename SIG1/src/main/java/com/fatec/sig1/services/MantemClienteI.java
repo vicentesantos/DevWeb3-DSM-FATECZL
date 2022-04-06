@@ -11,6 +11,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.ResourceAccessException;
 import org.springframework.web.client.RestTemplate;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 43ee7a6acb3b9f8ee8148fea475d37d5ddf59115
 import com.fatec.sig1.model.Cliente;
 import com.fatec.sig1.model.Endereco;
 import com.fatec.sig1.ports.ClienteRepository;
@@ -96,4 +100,8 @@ public class MantemClienteI implements MantemCliente {
 			return null;
 		}
 	}
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 43ee7a6acb3b9f8ee8148fea475d37d5ddf59115

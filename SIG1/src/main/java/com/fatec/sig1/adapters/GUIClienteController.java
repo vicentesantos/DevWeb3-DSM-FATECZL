@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 43ee7a6acb3b9f8ee8148fea475d37d5ddf59115
 import com.fatec.sig1.model.Cliente;
 import com.fatec.sig1.ports.MantemCliente;
 

@@ -51,6 +51,7 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 		<!-- configuracao do bean validation - validação da entrada de usuario -->
 		<dependency>
 		 <groupId>org.hibernate</groupId>
@@ -73,6 +74,29 @@
 		 <artifactId>gson</artifactId>
 		</dependency> 
 			
+=======
+		<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.10.14</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+		<!-- configuracao do bean validation - validação da entrada de usuario -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.0.13.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator-annotation-processor</artifactId>
+		</dependency>
+>>>>>>> 43ee7a6acb3b9f8ee8148fea475d37d5ddf59115
 	</dependencies>
 
 	<build>
