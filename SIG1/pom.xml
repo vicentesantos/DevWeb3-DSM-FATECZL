@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.4</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.fatec</groupId>
 	<artifactId>SIG1</artifactId>
@@ -40,6 +41,62 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- spring security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>         <!-- spring security test -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+<<<<<<< HEAD
+		<!-- configuracao do bean validation - validação da entrada de usuario -->
+		<dependency>
+		 <groupId>org.hibernate</groupId>
+		 <artifactId>hibernate-validator</artifactId>
+		 <version>6.0.13.Final</version>
+		</dependency>
+		<dependency>
+		 <groupId>org.hibernate.validator</groupId>
+		 <artifactId>hibernate-validator-annotation-processor</artifactId>
+		</dependency>
+				<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+		<dependency>
+		 <groupId>joda-time</groupId>
+		 <artifactId>joda-time</artifactId>
+		 <version>2.10.14</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+		 <groupId>com.google.code.gson</groupId>
+		 <artifactId>gson</artifactId>
+		</dependency> 
+			
+=======
+		<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.10.14</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+		<!-- configuracao do bean validation - validação da entrada de usuario -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.0.13.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator-annotation-processor</artifactId>
+		</dependency>
+>>>>>>> 43ee7a6acb3b9f8ee8148fea475d37d5ddf59115
 	</dependencies>
 
 	<build>
@@ -50,5 +107,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	
 </project>
